@@ -1,0 +1,65 @@
+#saini {
+    margin-top: 15px;
+    margin-left: 450px;
+    padding: 10px;
+    width: 436px;
+    position: relative;
+    color: #0ff;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #0ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    /* transition: 1.5s; */
+    font-size: 18px;
+    background-color: black;
+}
+
+#saini:hover {
+    box-shadow: 0 0px 50px 0 #0ff, 0 0 25px #0ff;
+}
+
+#katariya {
+    margin-left: 590px;
+    margin-top: 50px;
+    padding: 17px;
+    position: relative;
+    color: #0ff;
+    font-family: poppins;
+    font-weight: 400;
+    border: 5px solid #0ff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 100px;
+    /* transition: 1.5s; */
+    font-size: 25px;
+    background-color: black;
+    text-align: center;
+}
+
+#katariya:hover {
+    box-shadow: 0 5px 50px 0 #0ff inset, 0 5px 50px #0ff;
+}
+
+::placeholder {
+    color: aqua;
+}
+
+#myimg {
+    width: 1325px;
+    height: 900px;
+    margin: auto;
+    border-radius: 35px;
+    border: 5px solid #0ff;
+}
+
+#label {
+    color: red;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 50px;
+}

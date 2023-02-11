@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title> IT'S SEARCH SOFTWARE</title>
+</head>
+
+<body bgcolor="black">
+    <!-- <select name="kk" id="sel">
+        <option value="city">city</option>
+        <option value="building">building</option>
+    </select> -->
+    <div>
+        <input type="text" id="saini" placeholder="please enter a photo name you like">
+    </div>
+    <br>
+    <br>
+    <div>
+        <label id="label" hidden>please enter a valid name</label>
+    </div>
+    <div>
+        <button id="katariya"> SUMBIT </button>
+    </div>
+    <br>
+    <br>
+    <div>
+        <img src="asset/img2.jpg" alt="HAVING ANY ERROR" id="myimg">
+    </div>
+
+    <script>
+
+        // let select = document.getElementById('sel');
+        // let newop = document.createElement("option");
+        // let newopt = document.createTextNode(input);
+
+        // newop.appendChild(newopt);
+        // select.insertBefore(newop, select.lastChildNode);
+
+        let input = document.getElementById('saini');
+        let katariya = document.getElementById('katariya');
+        var myimg = ['asset/img5.png', 'asset/img1.jpg',
+            'asset/img2.jpg', 'asset/img3.jpg', 'asset/img4.jpg',
+            'asset/img8.jpg', 'asset/img6.jpg', 'asset/img7.jpg',
+            'asset/img9.jpg', 'asset/img10.jpg', 'asset/img11.jpg',
+            'asset/img12.jpg'];
+
+        katariya.addEventListener("click", function () {
+
+            if (input.value === 'city') {
+                document.getElementById('myimg').src = myimg[0];
+            }
+
+            if (input.value === 'building') {
+                document.getElementById('myimg').src = myimg[1];
+            }
+
+            if (input.value === 'suryadev') {
+                document.getElementById('myimg').src = myimg[2];
+            }
+
+            if (input.value === 'hil') {
+                document.getElementById('myimg').src = myimg[3];
+            }
+
+            if (input.value === 'eagle') {
+                document.getElementById('myimg').src = myimg[4];
+            }
+
+            if (input.value === 'ram') {
+                document.getElementById('myimg').src = myimg[5];
+            }
+
+            if (input.value === 'cool') {
+                document.getElementById('myimg').src = myimg[6];
+            }
+
+            if (input.value === 'laher') {
+                document.getElementById('myimg').src = myimg[7];
+            }
+
+            if (input.value === 'hanuman') {
+                document.getElementById('myimg').src = myimg[8];
+            }
+
+            if (input.value === 'ganesh') {
+                document.getElementById('myimg').src = myimg[9];
+            }
+
+            if (input.value === 'maa') {
+                document.getElementById('myimg').src = myimg[10];
+            }
+
+            if (input.value === 'shiv') {
+                document.getElementById('myimg').src = myimg[11];
+            }
+
+        });
+
+    </script>
+</body>
+
+</html>
